@@ -1,0 +1,26 @@
+#encabezado {
+  background-color: black;
+  color: white;
+}
+
+
+#fila1, #fila3 {
+  background-color: gray;
+  color: white;
+}
+
+
+#fila2, #fila4 {
+  background-color: blue;
+  color: white;
+}
+
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 8px;
+  text-align: left;
+}
+
+

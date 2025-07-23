@@ -1,0 +1,16 @@
+.caja1, .caja2 {
+  display: inline-block;
+  width: 22%;
+  height: 100px;
+  margin: 1%;
+  padding: 10px;
+}
+
+.caja1 {
+  background: rgb(111, 132, 139);
+}
+
+.caja2 {
+  background: rgb(128, 153, 128);
+}
+

@@ -1,0 +1,7 @@
+añadir hoja de estilos al ejercisios anterior donde:
+
+el color de fondo de la pagina tiene que ser #f3f4f5
+
+el titulo tiene que tener asignado un tipo de letra arial a 24px de tamañoy color de texto black
+
+para el texto de los parrafos , tendremos que usar la fuente georgia a 18px de tamaño y color detexto #757575

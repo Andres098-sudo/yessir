@@ -1,0 +1,19 @@
+
+        
+        #titulo-principal {
+            color: rgb(4, 0, 255);
+        }
+
+       
+        .subtitulo {
+            color: rgb(53, 90, 82);
+            background-color: #47e3ff; 
+        }
+
+        
+        p {
+            background-color: #2ba1f0; 
+            padding: 10px;
+            border-radius: 5px;
+        }
+  

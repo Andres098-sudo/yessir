@@ -1,0 +1,25 @@
+#div-margin {
+  background-color: #e0f7fa;
+  margin: 40px;
+  color: #006064;
+}
+
+#div-padding {
+  background-color: #fff3e0;
+  padding: 30px;
+  color: #e65100;
+}
+
+#div-border {
+  background-color: #fce4ec;
+  border: 5px solid #c2185b;
+  color: #880e4f;
+}
+
+#div-dotted {
+  background-color: #e8f5e9;
+  border: 4px dotted #2e7d32;
+  padding: 80px;
+  color: #1b5e20;
+}
+

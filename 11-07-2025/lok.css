@@ -1,0 +1,28 @@
+
+    /* Clase principal de cada contacto */
+    .contacto {
+      display: inline-block;
+      width: 250px;
+      margin: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      background-color: #f0f8ff;
+    }
+
+    /* Clase .titulo usada directamente */
+    .titulo {
+      font-family: Arial, sans-serif;
+      color: white;
+      background-color: #007acc;
+      padding: 5px;
+      border-radius: 5px;
+    }
+
+    /* Clase .titulo dentro de un div (anidado) */
+    div .titulo {
+      /* No se cambia la fuente */
+      color: black;
+      background-color: #ffd700;
+    }
+  

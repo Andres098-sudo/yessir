@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Apple </title>
+  <link href="apple.css" rel="stylesheet" />
+
+</head>
+<body>
+
+  <header>
+    <div class="logo"> Apple</div>
+    <nav>
+      <button onclick="mostrarSeccion('inicio')">Inicio</button>
+      <button onclick="mostrarSeccion('iphone')">iPhone</button>
+      <button onclick="mostrarSeccion('mac')">Mac</button>
+      <button onclick="mostrarSeccion('contacto')">Contacto</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="active">
+      <h2>Bienvenido a Apple</h2>
+      <p>Diseño elegante. Tecnología avanzada. Inspiración constante.</p>
+      <hr>
+    </section>
+
+    <section id="iphone">
+      <h2>iPhone</h2>
+      <p>El iPhone lleva la innovación al siguiente nivel. Potencia, simplicidad y belleza en tu mano.</p>
+      <hr>
+    </section>
+
+    <section id="mac">
+      <h2>Mac</h2>
+      <p>Mac representa el equilibrio perfecto entre rendimiento profesional y estilo icónico.</p>
+      <hr>
+    </section>
+
+    <section id="contacto">
+      <h2>Contáctanos</h2>
+      <p>Correo: contacto@apple.com</p>
+      <p>Teléfono: +1 800 555 1234</p>
+      <hr>
+    </section>
+  </main>
+
+  <script>
+    function mostrarSeccion(id) {
+      document.querySelectorAll("section").forEach(seccion => {
+        seccion.classList.remove("active");
+      });
+      document.getElementById(id).classList.add("active");
+    }
+  </script>
+
+</body>
+</html>
+

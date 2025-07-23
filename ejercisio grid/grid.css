@@ -1,0 +1,22 @@
+
+    .contenedor {
+      display: grid;
+      grid-template-columns: 40px 200px 40px;
+      padding: 20px;
+    }
+
+    .item1 {
+      grid-column-start: 1;
+      grid-column-end: 4;
+      background-color: blueviolet;
+      padding: 40px 0; /* color se ve más "ancho" verticalmente */
+    }
+
+    .item2 {
+      grid-column-start: 2;
+      grid-column-end: 4;
+      background-color: brown;
+      padding: 40px 0;
+    }
+
+ 

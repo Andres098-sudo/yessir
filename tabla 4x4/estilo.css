@@ -1,0 +1,28 @@
+
+    #verde-flour { background-color: #09ff8c; }
+    #verde { background-color: #008000; }
+    #magenta { background-color: #9203e6; }
+    #beige { background-color: #ffe08c; }
+
+    #aqua { background-color: #46bed3;  }
+    #rosa { background-color: #f147b9; }
+    #menta { background-color: #a1ffd0; }
+    #fucsia { background-color: #FF00FF; }
+
+    #cafe { background-color:#7e5909; }
+    #white { background-color: #FFFFFF;  }
+    #gris { background-color: #808080; }
+    #rojo { background-color: #7c0000; }
+
+    #salmon { background-color: #FFC0CB; }
+    #aqua-oscuro { background-color: #008080; }
+    #azul { background-color: #0010a5; }
+    #vino-tinto { background-color: #c20141c4; }
+
+    table, td {
+      border: 1px solid;
+      padding: 10px;
+      text-align: center;
+    }
+ 
+  
